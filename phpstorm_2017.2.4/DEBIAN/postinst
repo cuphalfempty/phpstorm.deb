@@ -1,0 +1,5 @@
+#!/bin/sh
+
+TAR_GZ="PhpStorm-2017.2.4.tar.gz"
+
+tar -xf "$HOME/$TAR_GZ" -C /opt/jetbrains/phpstorm/ --strip-components=1

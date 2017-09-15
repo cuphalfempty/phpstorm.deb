@@ -1,0 +1,9 @@
+#!/bin/sh
+
+TAR_GZ="PhpStorm-2017.2.4.tar.gz"
+
+if [ ! -f "$HOME/$TAR_GZ" ];
+then
+    echo "Unable to find $TAR_GZ"
+    exit 1
+fi
