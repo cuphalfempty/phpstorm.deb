@@ -1,0 +1,5 @@
+#/bin/sh
+
+rm -rf /opt/jetbrains/phpstorm
+
+# vim: filetype=sh:
