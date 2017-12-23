@@ -1,5 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
-TAR_GZ="PhpStorm-2017.3.tar.gz"
+TAR_GZ="PhpStorm-2017.3.2.tar.gz"
+INST_DIR="/opt/jetbrains/phpstorm"
 
-tar -xf "$HOME/$TAR_GZ" -C /opt/jetbrains/phpstorm/ --strip-components=1
+if [ ! -d "$INST_DIR" ];
+then
+    mkdir -p "$INST_DIR"
+fi
+
+tar -xf "$HOME/$TAR_GZ" -C "$INST_DIR" --strip-components=1
