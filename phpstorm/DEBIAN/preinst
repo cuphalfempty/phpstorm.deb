@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TAR_GZ="PhpStorm-2017.3.3.tar.gz"
+TAR_GZ="PhpStorm-2017.3.4.tar.gz"
 
 if [ ! -f "$HOME/$TAR_GZ" ];
 then
