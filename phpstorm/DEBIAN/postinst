@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAR_GZ="PhpStorm-2018.1.1.tar.gz"
+TAR_GZ="PhpStorm-2018.1.3.tar.gz"
 INST_DIR="/opt/jetbrains/phpstorm"
 
 if [ ! -d "$INST_DIR" ];
